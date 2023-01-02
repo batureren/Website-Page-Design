@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, .subscribe, footer, .p-dark, .aboutus-right, .form{
+    background-color: #35424A;
+    color: white;
+}
+
+.header-left{
+    word-spacing: .3rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #A7508B;
+}
+
+button{
+    background-color: #E8491D;
+    border: none;
+    color: white;
+    padding: 7px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input{
+    padding: 6px;
+}
+
+header div a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+span{
+    color: #A7508B;
+}
+
+header a:hover, .header-right span:hover{
+    color: #E8491D;
+    text-shadow:2px 2px 5px #E8491D;
+}
+
+/* Main */
+
+.background-img{
+    background-image: url(./images/showcase.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 15px;
+}
+
+.logos img{
+    width: 4rem;
+}
+
+footer{
+    display:flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: row wrap;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer img{
+    width: 200px;
+}
+
+/* about */
+
+.about{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.aboutus-left p, h4{
+    margin: 1rem 0rem;
+}
+
+.aboutus-right{
+    height: 10vh;
+}
+
+.services{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 30rem;
+    height: 18rem;
+}
+
+.service-button{
+    margin-top: .3rem;
+    width: 3.1rem;
+}
+
+.services div div{
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgba(166, 166, 166, 0.418);
+    margin: .6rem;
+    padding: 1rem;
+}
+
+.services div p{
+    padding-top: 10px;
+}
+
+.services h5{
+    font-size: large;
+}
